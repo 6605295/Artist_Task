@@ -1,0 +1,79 @@
+.home {
+  height: 100vh;
+}
+
+.searchBox {
+  border: none !important;
+  border-radius: 0 !important;
+  height: 3.3rem;
+}
+.searchBtn {
+  background-color: #fff !important;
+  border: none !important;
+}
+
+.iconColor {
+  color: grey;
+}
+
+.text-red {
+  color: red;
+}
+
+.card-body-flow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-img-size {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.card-body-title {
+  text-decoration: none;
+  color: black;
+}
+.card-body-desc {
+  width: 9rem !important;
+  font-size: 0.6rem !important;
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-body-flow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card-img-size {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+
+  .card-body-title {
+    margin-top: 0.5rem !important;
+    text-align: center;
+  }
+  .card-body-desc {
+    width: 12rem;
+    text-align: center;
+  }
+}
